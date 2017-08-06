@@ -1,0 +1,23 @@
+{
+    "name": "chescos/bittrex",
+    "description": "PHP library for the Bittrex crypto exchange",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "chescos\\Bittrex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "chescos\\Tests\\Bittrex\\": "tests/"
+        }
+    }
+}
